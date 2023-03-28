@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @hero_power %>
+
+<div>
+  <%= link_to "Edit this hero power", edit_hero_power_path(@hero_power) %> |
+  <%= link_to "Back to hero powers", hero_powers_path %>
+
+  <%= button_to "Destroy this hero power", @hero_power, method: :delete %>
+</div>
